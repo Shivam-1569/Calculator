@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 242, 208);
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container{
+    margin-inline: auto;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    width: 350px;
+    height: 70vh;
+    background-color: #101e42;
+    
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.ans-box{
+    width: 100%;
+    height: 26%;
+    background-color: #101e42;
+    text-align: end;
+    
+}
+.ans-box input{
+    width: 100%;
+    height: 100%;
+    background-color: #101e42;
+    border: none;
+    text-align: end;
+    font-size: 3rem;
+    font-family: monospace;
+    color: #edcaca;
+    outline: #000;
+    padding-right: 15px;
+}
+
+.box-w{
+    width: 95%;
+    height: 13%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: auto;
+}
+.box{
+    color: #edcaca;
+    width: 24%;
+    justify-content: space-evenly;
+    background-color: #101e42;
+    height: 100%;
+    border-radius: 10%;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.box:hover{
+    background-color: rgb(165, 155, 155);
+}
+.span-2{
+    flex-basis : 50%;
+}
